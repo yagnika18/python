@@ -1,0 +1,6 @@
+n = int(input())
+arr = map(int, input().split())
+newset=set(arr)
+newlist=list(newset)
+newlist.sort()
+print(newlist[-2])
